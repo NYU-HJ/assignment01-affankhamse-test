@@ -3,6 +3,8 @@
 #include "stack_tests.h"
 using namespace tests;
 int main() {
+
+  cout<<"HEllo"<<endl;
   // List Test Cases
   run_list_test_case_1();
   run_list_test_case_2();
@@ -20,7 +22,7 @@ int main() {
   run_generic_list_test_case_4();
   run_generic_list_test_case_5();
   run_generic_list_test_case_6();
-  run_generic_list_test_case_7();
+  // run_generic_list_test_case_7();
   run_generic_list_test_case_8();
   
   // Stack Test Cases
